@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soru1", "Soru1\Soru1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru6-adamasmaca", "soru6-adamasmaca\soru6-adamasmaca.csproj", "{87EF34B5-B3CD-49FD-BF2D-B839194B4E0E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmreUzun", "EmreUzun", "{46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{961C06D2-2515-41E2-9DC7-CA08F9846214} = {46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}
+		{9C49AC3D-87FA-465C-B0AC-A0FCAEC6D237} = {46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}
+		{D0CD9A29-D79B-4EFA-94B4-FD231811D7B6} = {46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}
+		{D6F51B9A-A717-4C60-8E68-8FBBEEAB8A60} = {46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}
+		{4121C9F0-AB5D-4672-ACC7-2D38580BB719} = {46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}
+		{87EF34B5-B3CD-49FD-BF2D-B839194B4E0E} = {46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A30578E-A1DE-4A95-ABE1-9146D6CA2E44}

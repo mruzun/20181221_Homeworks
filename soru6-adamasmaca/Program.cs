@@ -117,7 +117,6 @@ namespace soru6_adamasmaca
                     }
 
                 }
-                
         }
     }
 }
