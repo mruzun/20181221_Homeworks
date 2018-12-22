@@ -19,7 +19,12 @@ namespace Soru_4
             for (int i = 0; i < 100; i++)
             {
                 sayilar[i] = i;
-                if (i % 2 == 0)
+                if (i==0)
+                {
+                    cifts[ciftsayac] = i;
+                    ciftsayac++;
+                }
+                else if (i % 2 == 0)
                 {
                     cifts[ciftsayac] = i;
                     ciftsayac++;
@@ -33,18 +38,12 @@ namespace Soru_4
 
             for (int i = 0; i < diziort.Length; i++)
             {
+
                 if (teks[i] != 0 && cifts[i] != 0)
                 {
                     diziort[i] = (teks[i] + cifts[i]) / 2;
                 }
-                else if (teks[i] != 0)
-                {
-                    diziort[i] = teks[i];
-                }
-                else if (cifts[i] != 0)
-                {
-                    diziort[i] = cifts[i];
-                }
+                
             }
 
             Console.WriteLine("Tüm Sayılar");
@@ -58,10 +57,15 @@ namespace Soru_4
             Console.WriteLine("Çift sayılar ({0})",ciftsayac);
             for (int i = 0; i < cifts.Length; i++)
             {
-                if (cifts[i] != 0)
-                {
+                //if (i==0)
+                //{
+                //    Console.Write(cifts[i] + "-");
+
+                //}
+                //else if (cifts[i] != 0)
+                //{
                     Console.Write(cifts[i] + "-");
-                }
+                //}
 
             }
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -69,20 +73,20 @@ namespace Soru_4
             Console.WriteLine("Tek sayılar({0})",teksayac);
             for (int i = 0; i < teks.Length; i++)
             {
-                if (teks[i] != 0)
-                {
-                    Console.Write(teks[i] + "-");
-                }
+                //if (teks[i] != 0)
+                //{
+                   Console.Write(teks[i] + "-");
+                //}
             }
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("\n******************************************");
             Console.WriteLine("Ortalama sayılar");
             for (int i = 0; i < diziort.Length; i++)
             {
-                if (diziort[i] != 0)
-                {
+                //if (diziort[i] != 0)
+                //{
                     Console.Write(diziort[i] + " - ");
-                }
+                //}
             }
         }
     }
