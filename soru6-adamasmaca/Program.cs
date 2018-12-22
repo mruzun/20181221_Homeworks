@@ -10,6 +10,7 @@ namespace soru6_adamasmaca
     {
         static void Main(string[] args)
         {
+
             Baslangic:
                 string[] kelimeler = { "VOLKAN", "EMRE", "YILDIRIM", "HALIS", "FATIH", "AHMET", "METIN", "SAMET", "ASLI", "OKAN", "UĞUR", "EDA", "FATMA", "KURŞAT", "MEHMET" };
                 Random r = new Random();
