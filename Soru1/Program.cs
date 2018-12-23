@@ -53,7 +53,7 @@ namespace Soru1
             }
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\n******************************************");
-            Console.WriteLine("Tek sayılar ({0})",teksayac);
+            Console.WriteLine("Ortalama sayılar ({0})",teksayac);
             for (int i = 0; i < teks.Length; i++)
             {
                 if (teks[i] != 0)
