@@ -58,10 +58,10 @@ namespace soru6_adamasmaca
                 if (can == 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("KAYBETTİN LAN !");
+                    Console.WriteLine("KAYBETTİN !");
                 TryAgain:
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("TEKRAR OYNAMAK İSTER MİSİN YAKIŞIKLI ? (E / H) ");
+                    Console.WriteLine("TEKRAR OYNAMAK İSTER MİSİN YAKIŞIKLI/GÜZELLİK ? (E / H) ");
                     Console.ResetColor();
                     ConsoleKeyInfo cki = Console.ReadKey();
                     if (cki.Key == ConsoleKey.E)
@@ -79,7 +79,7 @@ namespace soru6_adamasmaca
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.DarkRed;
-                        Console.WriteLine("SEÇENEKLERİ GÖRMÜYOR MUSUN ! E VEYA H YAZ");
+                        Console.WriteLine("SEÇENEKLERİ GÖRMÜYOR MUSUN ! E VEYA H TUŞLA");
                         Console.ResetColor();
                         goto TryAgain;
                     }
@@ -88,9 +88,9 @@ namespace soru6_adamasmaca
                 if (!guncelKelime.Contains('_'))
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("HELAL LAN SANA");
+                    Console.WriteLine("HELAL SANA");
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("TEKRAR OYNAMAK İSTER MİSİN YAKIŞIKLI ? (E / H) ");
+                    Console.WriteLine("TEKRAR OYNAMAK İSTER MİSİN YAKIŞIKLI/GÜZELLİK ? (E / H) ");
                     Console.ResetColor();
                 TryAgain:
 
@@ -110,7 +110,7 @@ namespace soru6_adamasmaca
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.DarkRed;
-                        Console.WriteLine("SEÇENEKLERİ GÖRMÜYOR MUSUN ! E VEYA H YAZ");
+                        Console.WriteLine("SEÇENEKLERİ GÖRMÜYOR MUSUN ! E VEYA H TUŞLA");
                         Console.ResetColor();
                         goto TryAgain;
                     }
