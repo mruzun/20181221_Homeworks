@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soru6-adamasmaca", "soru6-a
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmreUzun", "EmreUzun", "{46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soru4-ebob-ekok", "Soru4-ebob-ekok\Soru4-ebob-ekok.csproj", "{29F96A19-90E0-4AF7-B8CD-A5A9B41FDF66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{87EF34B5-B3CD-49FD-BF2D-B839194B4E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87EF34B5-B3CD-49FD-BF2D-B839194B4E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87EF34B5-B3CD-49FD-BF2D-B839194B4E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F96A19-90E0-4AF7-B8CD-A5A9B41FDF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F96A19-90E0-4AF7-B8CD-A5A9B41FDF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F96A19-90E0-4AF7-B8CD-A5A9B41FDF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F96A19-90E0-4AF7-B8CD-A5A9B41FDF66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{D6F51B9A-A717-4C60-8E68-8FBBEEAB8A60} = {46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}
 		{4121C9F0-AB5D-4672-ACC7-2D38580BB719} = {46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}
 		{87EF34B5-B3CD-49FD-BF2D-B839194B4E0E} = {46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}
+		{29F96A19-90E0-4AF7-B8CD-A5A9B41FDF66} = {46EBE017-EAD3-4DDE-9C52-C4A12C0EF950}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A30578E-A1DE-4A95-ABE1-9146D6CA2E44}
