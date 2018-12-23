@@ -37,14 +37,7 @@ namespace Soru_4
             }
 
             for (int i = 0; i < diziort.Length; i++)
-            {
-
-                if (teks[i] != 0 && cifts[i] != 0)
-                {
-                    diziort[i] = (teks[i] + cifts[i]) / 2;
-                }
-                
-            }
+                diziort[i] = (teks[i] + cifts[i]) / 2;
 
             Console.WriteLine("Tüm Sayılar");
             for (int i = 0; i < sayilar.Length; i++)
@@ -73,20 +66,27 @@ namespace Soru_4
             Console.WriteLine("Tek sayılar({0})",teksayac);
             for (int i = 0; i < teks.Length; i++)
             {
-                //if (teks[i] != 0)
-                //{
+                if (teks[i] != 0)
+                {
                    Console.Write(teks[i] + "-");
-                //}
+                }
             }
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("\n******************************************");
             Console.WriteLine("Ortalama sayılar");
-            for (int i = 0; i < diziort.Length; i++)
+            //for (int i = 0; i < diziort.Length; i++)
+            //{
+            //    if (diziort[i] != 0)
+            //    {
+            //        Console.Write(diziort[i] + " - ");
+            //    }
+            //}
+            foreach (double item in diziort)
             {
-                //if (diziort[i] != 0)
-                //{
-                    Console.Write(diziort[i] + " - ");
-                //}
+                if (item != 0)
+                {
+                    Console.Write(item + " - ");
+                }
             }
         }
     }
