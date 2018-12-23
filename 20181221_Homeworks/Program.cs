@@ -11,6 +11,7 @@ namespace _20181221_Homeworks
         static void Main(string[] args)
         {
             Console.WriteLine("volkan");
+            Console.Write("En son: Metin TAŞLIK");
         } 
     }
 }
