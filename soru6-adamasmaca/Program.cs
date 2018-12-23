@@ -25,7 +25,6 @@ namespace soru6_adamasmaca
                 Console.WriteLine("KELIME HARF SAYISI = {0}", secilenKelime.Length);
                 while (can > 0 && guncelKelime.Contains('_'))
                 {
-                
                     Console.WriteLine("**************");
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.Write("GUNCEL KELIME = ");
@@ -115,7 +114,6 @@ namespace soru6_adamasmaca
                         Console.ResetColor();
                         goto TryAgain;
                     }
-
                 }
         }
     }
