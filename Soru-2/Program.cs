@@ -79,7 +79,7 @@ namespace Soru_2
             }
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("\n******************************************");
-            Console.WriteLine("Tek sayılar");
+            Console.WriteLine("Ortalama sayılar");
             for (int i = 0; i < diziort.Length; i++)
             {
                 if (diziort[i]!=0)

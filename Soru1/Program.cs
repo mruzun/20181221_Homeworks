@@ -10,9 +10,11 @@ namespace Soru1
     {
         static void Main(string[] args)
         {
+            // sayilar, tek sayilar, çift sayılar dizisi tanımladık
             int[] sayilar = new int[20];
             int[] teks = new int[20];
             int[] cifts = new int[20];
+
             Random rnd = new Random();
             int rndsayi = new int();
             int ciftsayac = 0;
@@ -53,7 +55,7 @@ namespace Soru1
             }
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\n******************************************");
-            Console.WriteLine("Ortalama sayılar ({0})",teksayac);
+            Console.WriteLine("Tek sayılar ({0})",teksayac);
             for (int i = 0; i < teks.Length; i++)
             {
                 if (teks[i] != 0)
