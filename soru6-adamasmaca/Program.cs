@@ -84,11 +84,12 @@ namespace soru6_adamasmaca
                         goto TryAgain;
                     }
                 }
-
+                
                 if (!guncelKelime.Contains('_'))
                 {
+                
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("HELAL SANA");
+                    Console.WriteLine("HELAL LAN SANA");
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("TEKRAR OYNAMAK İSTER MİSİN YAKIŞIKLI/GÜZELLİK ? (E / H) ");
                     Console.ResetColor();
@@ -104,7 +105,6 @@ namespace soru6_adamasmaca
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("OYUN BİTTİ ! GÜLE GÜLE ");
                         Console.ResetColor();
-
                     }
                     else
                     {
