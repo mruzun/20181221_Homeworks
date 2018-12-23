@@ -48,8 +48,7 @@ namespace Soru_2
                     diziort[i] = cifts[i];
                 }
             }
-
-
+            
             Console.WriteLine("\n******************************************");
             Console.WriteLine("Tüm Sayılar");
             for (int i = 0; i < sayilar.Length; i++)

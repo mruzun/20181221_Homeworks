@@ -12,7 +12,7 @@ namespace soru6_adamasmaca
         {
 
             Baslangic:
-                string[] kelimeler = { "VOLKAN", "EMRE", "YILDIRIM", "HALIS", "FATIH", "AHMET", "METIN", "SAMET", "ASLI", "OKAN", "UĞUR", "EDA", "FATMA", "KURŞAT", "MEHMET" };
+                string[] kelimeler = { "VOLKAN", "EMRE", "YILDIRIM", "HALİS", "FATİH", "AHMET", "METİN", "SAMET", "ASLI", "OKAN", "UĞUR", "EDA", "FATMA", "KÜRŞAT", "MEHMET" };
                 Random r = new Random();
                 int secilenKelimeIndex = r.Next(0, kelimeler.Length);
                 string secilenKelime = kelimeler[secilenKelimeIndex];
