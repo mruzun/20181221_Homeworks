@@ -18,7 +18,7 @@ namespace Soru_3
             for (int i = 0; i < 100; i++)
             {
                 sayilar[i] = i;
-                if (i% 2 == 0)
+                if (i % 2 == 0)
                 {
                     cifts[ciftsayac] = i;
                     ciftsayac++;
@@ -40,10 +40,10 @@ namespace Soru_3
             Console.WriteLine("Çift sayılar ({0})",ciftsayac);
             for (int i = 0; i < cifts.Length; i++)
             {
-                if (cifts[i] != 0)
-                {
+                //if (cifts[i] != 0)
+                //{
                     Console.Write(cifts[i] + "-");
-                }
+                //}
 
             }
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -51,10 +51,10 @@ namespace Soru_3
             Console.WriteLine("Tek sayılar ({0})",teksayac);
             for (int i = 0; i < teks.Length; i++)
             {
-                if (teks[i] != 0)
-                {
+                //if (teks[i] != 0)
+                //{
                     Console.Write(teks[i] + "-");
-                }
+                //}
             }
         }
     }

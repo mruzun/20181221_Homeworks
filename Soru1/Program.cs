@@ -14,11 +14,13 @@ namespace Soru1
             int[] sayilar = new int[20];
             int[] teks = new int[20];
             int[] cifts = new int[20];
-
+            
             Random rnd = new Random();
             int rndsayi = new int();
+
             int ciftsayac = 0;
             int teksayac = 0;
+
             for (int i = 0; i < sayilar.Length; i++)
             {
                 rndsayi = rnd.Next(1, 100);
@@ -40,7 +42,6 @@ namespace Soru1
             for (int i = 0; i < sayilar.Length; i++)
             {
                 Console.Write(sayilar[i] + "-");
-
             }
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\n******************************************");

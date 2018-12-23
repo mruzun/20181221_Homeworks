@@ -19,12 +19,7 @@ namespace Soru_4
             for (int i = 0; i < 100; i++)
             {
                 sayilar[i] = i;
-                if (i==0)
-                {
-                    cifts[ciftsayac] = i;
-                    ciftsayac++;
-                }
-                else if (i % 2 == 0)
+                if (i % 2 == 0)
                 {
                     cifts[ciftsayac] = i;
                     ciftsayac++;
@@ -41,25 +36,16 @@ namespace Soru_4
 
             Console.WriteLine("Tüm Sayılar");
             for (int i = 0; i < sayilar.Length; i++)
-            {
                 Console.Write(sayilar[i] + "-");
-
-            }
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\n******************************************");
             Console.WriteLine("Çift sayılar ({0})",ciftsayac);
             for (int i = 0; i < cifts.Length; i++)
             {
-                //if (i==0)
-                //{
-                //    Console.Write(cifts[i] + "-");
-
-                //}
-                //else if (cifts[i] != 0)
-                //{
+                if (i == 0)
                     Console.Write(cifts[i] + "-");
-                //}
-
+                else if (cifts[i] != 0)
+                    Console.Write(cifts[i] + "-");
             }
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\n******************************************");
@@ -67,20 +53,11 @@ namespace Soru_4
             for (int i = 0; i < teks.Length; i++)
             {
                 if (teks[i] != 0)
-                {
                    Console.Write(teks[i] + "-");
-                }
             }
-            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n******************************************");
             Console.WriteLine("Ortalama sayılar");
-            //for (int i = 0; i < diziort.Length; i++)
-            //{
-            //    if (diziort[i] != 0)
-            //    {
-            //        Console.Write(diziort[i] + " - ");
-            //    }
-            //}
             foreach (double item in diziort)
             {
                 if (item != 0)

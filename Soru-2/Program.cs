@@ -10,6 +10,7 @@ namespace Soru_2
     {
         static void Main(string[] args)
         {
+            //ortalama işlemi için diziler double tanımlanır.
             double[] sayilar = new double[20];
             double[] teks = new double[20];
             double[] cifts = new double[20];
@@ -33,6 +34,7 @@ namespace Soru_2
                     teksayac++;
                 }
             }
+
             for (int i = 0; i < sayilar.Length; i++)
             {
                 if (teks[i] != 0 && cifts[i] != 0)
@@ -41,11 +43,11 @@ namespace Soru_2
                 }
                 else if (teks[i] != 0)
                 {
-                    diziort[i] = teks[i];
+                    diziort[i] = teks[i]/2;
                 }
                 else if (cifts[i]!=0)
                 {
-                    diziort[i] = cifts[i];
+                    diziort[i] = cifts[i]/2;
                 }
             }
             
@@ -77,16 +79,16 @@ namespace Soru_2
                     Console.Write(teks[i] + "-");
                 }
             }
-            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("\n******************************************");
             Console.WriteLine("Ortalama sayılar");
             for (int i = 0; i < diziort.Length; i++)
             {
-                if (diziort[i]!=0)
+                if (diziort[i] != 0)
                 {
                     Console.Write(diziort[i] + "-");
                 }
-                
+
             }
             Console.ReadKey();
         }
